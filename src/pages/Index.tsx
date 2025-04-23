@@ -15,7 +15,7 @@ const Index = () => {
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-                  Бухгалтерия.Инфо — Проект по Информатике
+                  Бухгалтерия.Инфо
                 </h1>
                 <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
                   Узнайте о принципах работы бухгалтерии и её роли в современном бизнесе
@@ -79,8 +79,7 @@ const Index = () => {
             <div className="mb-10">
               <h2 className="text-2xl font-bold tracking-tight text-center mb-4">О нас</h2>
               <p className="text-muted-foreground text-center max-w-3xl mx-auto">
-                Мы команда студентов, изучающих информатику и экономику. 
-                Этот проект создан как образовательный ресурс.
+                Мы профессиональная команда, создавшая этот информационный ресурс о бухгалтерии.
               </p>
             </div>
             
@@ -94,8 +93,8 @@ const Index = () => {
                 </p>
                 <h3 className="text-xl font-bold">Наш подход</h3>
                 <p>
-                  В рамках проекта по информатике мы объединили знания о цифровых технологиях 
-                  и финансовом учёте, создав современный образовательный ресурс для всех интересующихся.
+                  Мы объединили знания о цифровых технологиях и финансовом учёте, 
+                  создав современный образовательный ресурс для всех интересующихся.
                 </p>
               </div>
               
@@ -106,7 +105,7 @@ const Index = () => {
               >
                 <div className="space-y-4">
                   <div className="border-b pb-2">
-                    <h4 className="font-medium">Анна Иванова</h4>
+                    <h4 className="font-medium">Моргунов Максим</h4>
                     <p className="text-sm text-muted-foreground">Руководитель проекта</p>
                   </div>
                   <div className="border-b pb-2">
@@ -118,7 +117,7 @@ const Index = () => {
                     <p className="text-sm text-muted-foreground">Веб-разработчик</p>
                   </div>
                   <div>
-                    <h4 className="font-medium">Алексей Смирнов</h4>
+                    <h4 className="font-medium">Джавид Аббасов</h4>
                     <p className="text-sm text-muted-foreground">Дизайнер</p>
                   </div>
                 </div>
