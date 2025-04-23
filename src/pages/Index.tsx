@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import InfoCard from "@/components/InfoCard";
 import { Calculator, Users, LineChart, FileText } from "lucide-react";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 const Index = () => {
   return (
@@ -104,21 +105,26 @@ const Index = () => {
                 className="h-full"
               >
                 <div className="space-y-4">
-                  <div className="border-b pb-2">
-                    <h4 className="font-medium">Моргунов Максим</h4>
-                    <p className="text-sm text-muted-foreground">Руководитель проекта</p>
+                  <div className="flex items-center gap-4 border-b pb-4">
+                    <Avatar className="h-16 w-16 border-2 border-primary/20">
+                      <AvatarImage src="https://cdn.poehali.dev/files/97968508-8c02-45e4-a490-293b45651c91.jpg" alt="Моргунов Максим" />
+                      <AvatarFallback>ММ</AvatarFallback>
+                    </Avatar>
+                    <div>
+                      <h4 className="font-medium">Моргунов Максим</h4>
+                      <p className="text-sm text-muted-foreground">Руководитель проекта</p>
+                    </div>
                   </div>
-                  <div className="border-b pb-2">
-                    <h4 className="font-medium">Дмитрий Петров</h4>
-                    <p className="text-sm text-muted-foreground">Эксперт по бухгалтерии</p>
-                  </div>
-                  <div className="border-b pb-2">
-                    <h4 className="font-medium">Мария Сидорова</h4>
-                    <p className="text-sm text-muted-foreground">Веб-разработчик</p>
-                  </div>
-                  <div>
-                    <h4 className="font-medium">Джавид Аббасов</h4>
-                    <p className="text-sm text-muted-foreground">Дизайнер</p>
+                  
+                  <div className="flex items-center gap-4">
+                    <Avatar className="h-16 w-16 border-2 border-primary/20">
+                      <AvatarImage src="https://cdn.poehali.dev/files/ba7a6b3a-b92b-43f6-a187-2b33e0efd619.jpg" alt="Джавид Аббасов" />
+                      <AvatarFallback>ДА</AvatarFallback>
+                    </Avatar>
+                    <div>
+                      <h4 className="font-medium">Джавид Аббасов</h4>
+                      <p className="text-sm text-muted-foreground">Дизайнер</p>
+                    </div>
                   </div>
                 </div>
               </InfoCard>
