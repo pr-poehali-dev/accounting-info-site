@@ -97,11 +97,15 @@ const About = () => {
               </p>
             </div>
             
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-3xl mx-auto">
               <Card>
                 <CardContent className="p-6 text-center">
-                  <div className="w-24 h-24 rounded-full bg-primary/20 mx-auto mb-4 flex items-center justify-center">
-                    <span className="text-3xl">👨‍💼</span>
+                  <div className="w-32 h-32 rounded-full mx-auto mb-4 overflow-hidden">
+                    <img 
+                      src="https://cdn.poehali.dev/files/97968508-8c02-45e4-a490-293b45651c91.jpg" 
+                      alt="Моргунов Максим" 
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                   <h3 className="text-lg font-medium mb-1">Моргунов Максим</h3>
                   <p className="text-sm text-muted-foreground mb-3">Руководитель проекта</p>
@@ -114,36 +118,12 @@ const About = () => {
               
               <Card>
                 <CardContent className="p-6 text-center">
-                  <div className="w-24 h-24 rounded-full bg-primary/20 mx-auto mb-4 flex items-center justify-center">
-                    <span className="text-3xl">👨‍💼</span>
-                  </div>
-                  <h3 className="text-lg font-medium mb-1">Дмитрий Петров</h3>
-                  <p className="text-sm text-muted-foreground mb-3">Эксперт по бухгалтерии</p>
-                  <p className="text-sm">
-                    Отвечает за точность и актуальность 
-                    информации о бухгалтерии на ресурсе.
-                  </p>
-                </CardContent>
-              </Card>
-              
-              <Card>
-                <CardContent className="p-6 text-center">
-                  <div className="w-24 h-24 rounded-full bg-primary/20 mx-auto mb-4 flex items-center justify-center">
-                    <span className="text-3xl">👩‍🎨</span>
-                  </div>
-                  <h3 className="text-lg font-medium mb-1">Мария Сидорова</h3>
-                  <p className="text-sm text-muted-foreground mb-3">Веб-разработчик</p>
-                  <p className="text-sm">
-                    Занимается разработкой технической 
-                    части проекта и функциональностью сайта.
-                  </p>
-                </CardContent>
-              </Card>
-              
-              <Card>
-                <CardContent className="p-6 text-center">
-                  <div className="w-24 h-24 rounded-full bg-primary/20 mx-auto mb-4 flex items-center justify-center">
-                    <span className="text-3xl">👨‍🎨</span>
+                  <div className="w-32 h-32 rounded-full mx-auto mb-4 overflow-hidden">
+                    <img 
+                      src="https://cdn.poehali.dev/files/ba7a6b3a-b92b-43f6-a187-2b33e0efd619.jpg" 
+                      alt="Джавид Аббасов" 
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                   <h3 className="text-lg font-medium mb-1">Джавид Аббасов</h3>
                   <p className="text-sm text-muted-foreground mb-3">Дизайнер</p>
